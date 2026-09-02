@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Mark Anthony Villanueva</title>
+
+```
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f5f9ff;
+        color: #333;
+    }
+
+    header {
+        background-color: #0056b3;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav {
+        background-color: #ffcc00;
+        padding: 12px;
+        text-align: center;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #003366;
+        font-weight: bold;
+        margin: 15px;
+    }
+
+    main {
+        max-width: 700px;
+        margin: auto;
+        padding: 30px;
+    }
+
+    section {
+        background-color: white;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+        color: #0056b3;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input, select, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #0056b3;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .radio-group input,
+    .checkbox-group input {
+        width: auto;
+        margin-right: 5px;
+    }
+
+    button {
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .submit-btn {
+        background-color: #0056b3;
+        color: white;
+    }
+
+    .reset-btn {
+        background-color: #ffcc00;
+        color: #003366;
+    }
+
+    footer {
+        background-color: #003366;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 30px;
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+<header>
+    <h1>Contact Me</h1>
+    <p>Get in touch with Mark Anthony Villanueva</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+
+```
+<section>
+
+    <h2>Contact Information</h2>
+
+    <p><strong>Name:</strong> Mark Anthony Villanueva</p>
+    <p><strong>Email:</strong> your-email@example.com</p>
+
+    <hr>
+
+    <h2>Send Me a Message</h2>
+
+    <form>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label>Gender:</label>
+
+        <div class="radio-group">
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+        </div>
+
+        <br>
+
+        <label>Interests:</label>
+
+        <div class="checkbox-group">
+            <input type="checkbox" id="html" name="interest" value="HTML">
+            <label for="html">HTML</label>
+
+            <input type="checkbox" id="technology" name="interest" value="Technology">
+            <label for="technology">Technology</label>
+
+            <input type="checkbox" id="games" name="interest" value="Games">
+            <label for="games">Games</label>
+        </div>
+
+        <br><br>
+
+        <label for="topic">Choose a Topic:</label>
+
+        <select id="topic" name="topic">
+            <option value="">-- Select a Topic --</option>
+            <option value="question">Question</option>
+            <option value="feedback">Feedback</option>
+            <option value="project">Project Inquiry</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="message">Your Message:</label>
+
+        <textarea id="message" name="message" rows="6"
+            placeholder="Write your message here..."></textarea>
+
+        <button type="submit" class="submit-btn">Submit</button>
+
+        <button type="reset" class="reset-btn">Reset</button>
+
+    </form>
+
+</section>
+```
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Mark Anthony Villanueva | Personal Portfolio</p>
+</footer>
+
+</body>
+</html>
